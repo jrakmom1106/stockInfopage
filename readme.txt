@@ -10,7 +10,7 @@ maria DB 설치 > https://mariadb.org/download/ 10.5.9 version
 heildsql 설치
 
 --- 주의사항 ---
-
+ 
 ---
 pip install Django # 장고설치
 pip install jsonfield # json 설치
