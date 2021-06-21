@@ -10,15 +10,6 @@ maria DB 설치 > https://mariadb.org/download/ 10.5.9 version
 heildsql 설치
 
 --- 주의사항 ---
-실행시 anaconda 로 32bit의 가상환경 세팅 후 runserver 할 것
-포트번호는3306 혹은 3308 사용 -> 변경시 DBupdate -> 포트넘버 변경, setting 의 포트넘버 변경
-마리아 디비 비번 : test0000
-phpmyadmin
-아이디 : ykk_stock
-비밀번호 : PwVbAgXtQWY0AN92
-서버주소 : jeongps.com
-포트 : 3306
-데이터베이스 : ykk_stock
 
 ---
 pip install Django # 장고설치
