@@ -86,16 +86,25 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
 
+    
+    
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': '',  #mysql
+        # 'USER': '', #root
+        # 'PASSWORD': '', #1234
+        # 'HOST': '', #공백으로 냅두면 default localhost
+        # 'PORT': '3306' #공백으로 냅두면 default 3306
 
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ykk_stock',  #mysql
-        'USER': 'ykk_stock', #root
-        'PASSWORD': 'PwVbAgXtQWY0AN92', #1234
-        'HOST': 'jeongps.com', #공백으로 냅두면 default localhost
-        'PORT': '3306' #공백으로 냅두면 default 3306
+        'NAME': 'STOCK_PROJECT',  #mysql
+        'USER': 'root', #root
+        'PASSWORD': 'test0000', # 비밀번호
+        'HOST': '', #공백으로 두면 default localhost
+        'PORT': '3306' #공백으로 두면 default 3306
     }
 }
 
